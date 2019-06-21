@@ -19,9 +19,8 @@ The goal of this initiative is to provide exemplary project that covers typical 
 ### Test specification
 
 * [Create executable test specification](/src/test/java/net/testwork/demos/cucumber/wikipedia/OpenWikipediaTest.java)
-* Parametrize scenarios with test data
-* Parametrize test steps with test data
-* Run selected tests
+* [Parametrize scenarios with test data](/src/test/resources/features/wikipedia/SearchWikipedia.feature)
+* [Parametrize test steps with data tables](/src/test/resources/features/wikipedia/DisplayCharacterInformation.feature)
 
 ### Test reporting
 * Create test execution report
