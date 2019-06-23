@@ -14,6 +14,7 @@ import java.util.Map;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.open;
+import static net.testwork.demos.cucumber.config.AllureReport.attachScreenshot;
 
 @Slf4j
 public class WikipediaSteps {
@@ -28,6 +29,8 @@ public class WikipediaSteps {
     @When("^user opens Wikipedia page$")
     public void openWiki() {
         open("/");
+        attachScreenshot("open-wikipedia");
+
     }
 
     @When("^user search for '(.*)' phrase$")

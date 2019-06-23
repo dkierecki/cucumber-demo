@@ -24,7 +24,7 @@ The goal of this initiative is to provide exemplary project that covers typical 
 
 ### Test reporting
 * Create test execution report
-* Add screenshot to report
+* [Add screenshot to report](/src/main/java/net/testwork/demos/cucumber/config/AllureReport.java)
 
 ### Test execution
 * Run single test scenario
