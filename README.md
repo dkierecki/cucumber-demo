@@ -27,8 +27,8 @@ The goal of this initiative is to provide exemplary project that covers typical 
 * [Add screenshot to report](/src/main/java/net/testwork/demos/cucumber/config/AllureReport.java)
 
 ### Test execution
-* Run single test scenario
-* Run all tests
+* [Run selected test scenarios](/src/test/java/net/testwork/demos/cucumber/wikipedia/SmokeTest.java)
+* Run all tests - execute Maven verify goal
 * Run tests with different environment configuration
 * Run tests in headless mode
 * Run tests in parallel

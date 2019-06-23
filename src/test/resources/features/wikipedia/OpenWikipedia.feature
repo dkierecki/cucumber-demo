@@ -2,6 +2,7 @@
 
 Feature: Basic Wikipedia tests
 
+  @smoke
   Scenario: Open Wikipedia page
     When user opens Wikipedia page
     Then user should see Wikipedia logo

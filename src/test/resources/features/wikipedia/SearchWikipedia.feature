@@ -1,5 +1,6 @@
 Feature: Search Wikipedia
 
+  @smoke
   Scenario: Search Wikipedia
     Given Wikipedia page is opened
     When user search for 'jedi' phrase
