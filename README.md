@@ -23,7 +23,7 @@ The goal of this initiative is to provide exemplary project that covers typical 
 * [Parametrize test steps with data tables](/src/test/resources/features/wikipedia/DisplayCharacterInformation.feature)
 
 ### Test reporting
-* Create test execution report
+* [Create test execution report](/src/test/java/net/testwork/demos/cucumber/wikipedia/SearchWikipediaTest.java)
 * [Add screenshot to report](/src/main/java/net/testwork/demos/cucumber/config/AllureReport.java)
 
 ### Test execution
