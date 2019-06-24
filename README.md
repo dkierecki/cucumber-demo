@@ -30,8 +30,8 @@ The goal of this initiative is to provide exemplary project that covers typical 
 * [Run selected test scenarios](/src/test/java/net/testwork/demos/cucumber/wikipedia/SmokeTest.java)
 * Run all tests - execute 'mvn clean verify' command
 * Run tests with different environment configuration - execute 'mvn clean verify -Dspring.profiles.active=dev' command
-* Run tests in headless mode
-* Run tests in parallel
+* Run tests in headless mode - set com.codeborne.selenide.Configuration.headless = true
+* Run tests in parallel - set maven-surefire-plugin <forkCount> configuration parameter to value higher that 1 
 * Run tests in CI
 * [Use custom WedDriver](/src/main/java/net/testwork/demos/cucumber/config/CustomChromeDriver.java)
 * Use hooks
