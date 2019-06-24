@@ -14,13 +14,13 @@ import org.springframework.core.env.Environment;
 @PropertySource("classpath:environment/${spring.profiles.active:local}.properties")
 public class FrameworkConfig {
 
-    public static int ONE_MINUTE = 60000;
+    public static int FIVE_SECONDS = 5000;
 
     @Autowired
     public FrameworkConfig(Environment env) {
         com.codeborne.selenide.Configuration.baseUrl = env.getProperty("wikipedia.url");
         com.codeborne.selenide.Configuration.browser = env.getProperty("browser");
-        com.codeborne.selenide.Configuration.timeout = ONE_MINUTE;
+        com.codeborne.selenide.Configuration.timeout = FIVE_SECONDS;
         com.codeborne.selenide.Configuration.startMaximized = true;
         com.codeborne.selenide.Configuration.savePageSource = false;
         com.codeborne.selenide.Configuration.screenshots = false;
