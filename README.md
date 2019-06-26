@@ -32,12 +32,13 @@ The goal of this initiative is to provide exemplary project that covers typical 
 * Run tests with different environment configuration - execute 'mvn clean verify -Dspring.profiles.active=dev' command
 * Run tests in headless mode - set com.codeborne.selenide.Configuration.headless = true
 * Run tests in parallel - set maven-surefire-plugin <forkCount> configuration parameter to value higher that 1 
-* Run tests in CI
+* Run tests in CI - TODO
 * [Use custom WedDriver](/src/main/java/net/testwork/demos/cucumber/config/CustomChromeDriver.java)
-* Use hooks
+* Use hooks - TODO
 
 ### Test data
-* Share data between test steps
-* Use REST API to get test data
-* Use DB to get test data
-* Test data cleanup
+* [Share data between test steps](/src/main/java/net/testwork/demos/cucumber/steps/StarWarsSteps.java)
+* Share data between test scenarios - TODO
+* [Use REST API to get test data](/src/main/java/net/testwork/demos/cucumber/rest/PlanetsRestService.java)
+* Use DB to get test data - TODO
+* Test data cleanup - TODO
