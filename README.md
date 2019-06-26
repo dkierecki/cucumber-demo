@@ -4,15 +4,15 @@ The goal of this initiative is to provide exemplary project that covers typical 
 
 ## Technology stack
 
-* Java
-* JUnit
-* Cucumber JVM
-* Selenide
-* Allure
-* RestAssured
-* AssertJ
-* Spring
-* Maven
+* Java 8
+* [JUnit](https://junit.org/junit4/)
+* [Cucumber JVM](https://cucumber.io/docs)
+* [Selenide](https://selenide.org/)
+* [Allure](http://allure.qatools.ru/)
+* [RestAssured](http://rest-assured.io/)
+* [AssertJ](https://joel-costigliola.github.io/assertj/)
+* [Spring](https://spring.io/)
+* [Maven](https://maven.apache.org/)
 
 ## Test automation cases
 
@@ -33,7 +33,7 @@ The goal of this initiative is to provide exemplary project that covers typical 
 * Run tests in headless mode - set com.codeborne.selenide.Configuration.headless = true
 * Run tests in parallel - set maven-surefire-plugin <forkCount> configuration parameter to value higher that 1 
 * Run tests in CI - TODO
-* [Use custom WedDriver](/src/main/java/net/testwork/demos/cucumber/config/CustomChromeDriver.java)
+* [Use custom WebDriver](/src/main/java/net/testwork/demos/cucumber/config/CustomChromeDriver.java)
 * Use hooks - TODO
 
 ### Test data
