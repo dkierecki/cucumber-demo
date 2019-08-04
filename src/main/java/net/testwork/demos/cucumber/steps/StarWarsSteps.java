@@ -35,6 +35,12 @@ public class StarWarsSteps {
         planets = planetsRestService.getPlanets();
     }
 
+    @Given("^list of all SW people is obtained$")
+    public void getAllPeople() {
+        log.info("Getting all people");
+
+    }
+    
     @When("^user searches for planets in Wikipedia$")
     public void searchPlanets() {
         softly = new SoftAssertions();
