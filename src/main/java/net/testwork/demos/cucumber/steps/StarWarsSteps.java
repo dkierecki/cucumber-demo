@@ -16,6 +16,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 // Private variables (List<String> planets, private SoftAssertions softly;) can be shared between steps within single scenario
 
 @Slf4j
@@ -76,5 +78,10 @@ public class StarWarsSteps {
     @Then("^user should see content page for every character$")
     public void showCharacters() {
         softly.assertAll();
+    }
+    
+    @Then(("^planet list should contain following values$"))
+    public void shouldSeePlanetList(List<String> expectedPlanets) {
+        assertThat(planets).containsExactlyInAnyOrderElementsOf(expectedPlanets);
     }
 }

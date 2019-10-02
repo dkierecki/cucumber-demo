@@ -26,5 +26,5 @@ public class PlanetsRestService {
                 .extract()
                 .body().jsonPath().getList("results.name");
     }
-
+    
 }
